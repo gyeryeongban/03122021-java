@@ -6,5 +6,6 @@ public class App {
         String A = sc.next();
         String b = sc.next();
         System.out.println(b + " " + A);
+        sc.close();
     }
 }

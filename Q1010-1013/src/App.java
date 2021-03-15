@@ -12,11 +12,12 @@ public class App {
         System.out.println(b);
 
         // 1012
-        float c = sc.nextFloat(1.414213);
+        float c = sc.nextFloat();
         System.out.println(c);
 
         // 1013
         int d = sc.nextInt(), e = sc.nextInt();
         System.out.println(d + " " + e);
+        sc.close();
     }
 }
