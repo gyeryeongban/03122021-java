@@ -20,6 +20,10 @@ public class App {
         // 1036
         char c = sc.next().charAt(0);
         System.out.println((int) c);
+
+        // 1037
+        int d = sc.nextInt();
+        System.out.println((char) d);
         sc.close();
     }
 }
