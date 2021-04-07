@@ -16,7 +16,7 @@ public class App {
         // }
         // sc.close();
         Scanner sc = new Scanner(System.in);
-        System.out.print("바둑돌을 몇번 두실 겁니까? : ");
+        System.out.print("바둑돌을 몇번 두실 겁니까?: ");
         int n = sc.nextInt(); // 스캐너로 입력받을 때/ 몇 번 입력받을 지 정하지 X
         // int n = 5; // 몇 번 입력받을지
         int[][] arr = new int[19][19]; // [행][열]
